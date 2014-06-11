@@ -1,0 +1,26 @@
+{
+  "name": "nokku",
+  "version": "0.0.0",
+  "description": "A node application container and supervisor inspired by dokku, but not underpinned by docker. Compatible with OpenVZ and others.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gendocs": "gendocs > README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamonOehlman/nokku.git"
+  },
+  "keywords": [
+    "dokku",
+    "container",
+    "supervisor",
+    "deployment"
+  ],
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/nokku/issues"
+  },
+  "homepage": "https://github.com/DamonOehlman/nokku"
+}
