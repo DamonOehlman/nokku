@@ -29,9 +29,7 @@
   "homepage": "https://github.com/DamonOehlman/nokku",
   "dependencies": {
     "forever-monitor": "^1",
-    "levelup": "~0.18",
-    "pull-level": "^1",
-    "pull-stream": "^2",
+    "keg": "0.0.0",
     "seaport": "^2"
   }
 }
