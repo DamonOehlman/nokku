@@ -26,5 +26,12 @@
   "bugs": {
     "url": "https://github.com/DamonOehlman/nokku/issues"
   },
-  "homepage": "https://github.com/DamonOehlman/nokku"
+  "homepage": "https://github.com/DamonOehlman/nokku",
+  "dependencies": {
+    "forever-monitor": "^1",
+    "levelup": "~0.18",
+    "pull-level": "^1",
+    "pull-stream": "^2",
+    "seaport": "^2"
+  }
 }
