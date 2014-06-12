@@ -13,6 +13,8 @@ be used (AFAIK).  So nokku was born.
 
 ## Installation
 
+__NOTE:__ I wouldn't recommend trying any of this yet...
+
 The installation process is fairly simple, and is outlined below.  The process is designed to be compatible with both Ubuntu 12.04 and 14.04 and should work in any environment, although it is best suited to a freshly installed machine.
 
 First download the bootstrap script to the machine:
