@@ -11,7 +11,6 @@ DEFAULT_GITUSER=dokku
 # detect the osversion
 OS_VERSION=`lsb_release -sr`
 INSTALL="apt-get install -yq"
-UPGRADE="apt-get upgrade -yq"
 
 # urls
 GITRECEIVE_URL=https://raw.github.com/progrium/gitreceive/master/gitreceive
@@ -48,7 +47,7 @@ hash node 2> /dev/null || installNode
 hash nginx 2> /dev/null || installNginx
 
 # upgrade to bring things to the latest version if we have things installed
-$UPGRADE
+apt-get upgrade -yq
 
 # install gitreceive
 # https://github.com/progrium/gitreceive
