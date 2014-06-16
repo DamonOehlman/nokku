@@ -1,3 +1,7 @@
+var keg = require('keg');
+var forever = require('forever-monitor');
+var seaport = require('seaport');
+
 /**
   # nokku
 
@@ -11,3 +15,7 @@
 
   <<< docs/installation.md
 **/
+
+module.exports = function(opts, callback) {
+  keg(opts, callback);
+};
